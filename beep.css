@@ -1,0 +1,78 @@
+body{
+    background: #F1F1F0;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 21pt;
+    border-bottom: 1px solid #ddd;
+    background: #F1F1F0;
+}
+.title{
+    margin-left: 24px;
+}
+.container{
+    padding: 15px;
+    background: #fff;
+}
+.part-1{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tip{
+    color: #96969B;
+    font-size: 18px;
+}
+.money-area{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #96969B;
+}
+.label{
+    font-size: 40px;
+}
+.my-input{
+    width: 100%;
+    border: none;
+    padding: 0 13px;
+    color: #1C1C1F;
+    font-size: 50px;
+}
+.my-input:focus{
+    border:none;
+    outline: none;
+}
+.my-textarea{
+    color: #96969B;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    resize: none;
+    margin-top: 14px;
+    border: none;
+}
+.my-textarea{
+    border:none;
+    outline: none;
+}
+.commit{
+    width:100%;
+    height:64px;
+    text-align:center;
+    line-height: 64px;
+    color: #fff;
+
+    background:rgba(248,72,63,1);
+    opacity:0.15;
+    border-radius:6px;
+}
